@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1066" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="800" y1="0" x2="800" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#F3E8D5"/><stop offset="1" stop-color="#E3CEAF"/></linearGradient>
+    <linearGradient id="floor" x1="800" y1="680" x2="800" y2="1066" gradientUnits="userSpaceOnUse"><stop stop-color="#B99068"/><stop offset="1" stop-color="#8C684B"/></linearGradient>
+    <linearGradient id="sky" x1="560" y1="90" x2="560" y2="515" gradientUnits="userSpaceOnUse"><stop stop-color="#9CC7CF"/><stop offset=".62" stop-color="#D2E0D2"/><stop offset="1" stop-color="#F1D6A2"/></linearGradient>
+    <linearGradient id="deskwood" x1="0" y1="0" x2="0" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#C8A477"/><stop offset=".16" stop-color="#E0C49A"/><stop offset="1" stop-color="#A87F58"/></linearGradient>
+    <linearGradient id="monitor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#708A8B"/><stop offset="1" stop-color="#40575C"/></linearGradient>
+    <linearGradient id="xiaomanShirt" x1="700" y1="480" x2="830" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#B88578"/><stop offset="1" stop-color="#80635F"/></linearGradient>
+    <linearGradient id="chenyuCoat" x1="300" y1="450" x2="440" y2="780" gradientUnits="userSpaceOnUse"><stop stop-color="#596E76"/><stop offset="1" stop-color="#394C55"/></linearGradient>
+    <linearGradient id="xuranShirt" x1="1150" y1="455" x2="1260" y2="790" gradientUnits="userSpaceOnUse"><stop stop-color="#75806B"/><stop offset="1" stop-color="#4C5C50"/></linearGradient>
+    <linearGradient id="linxiaoShirt" x1="930" y1="480" x2="1050" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#C08C7C"/><stop offset="1" stop-color="#87685F"/></linearGradient>
+    <pattern id="wallgrain" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M0 71.5H72" stroke="#B99C78" stroke-opacity=".12"/></pattern>
+    <pattern id="floorboards" width="350" height="102" patternUnits="userSpaceOnUse"><path d="M0 101H350M175 0V101" stroke="#5E4938" stroke-opacity=".18" stroke-width="2"/><path d="M10 18H150M194 78H338" stroke="#E0C59E" stroke-opacity=".15" stroke-width="2"/></pattern>
+    <clipPath id="windowview"><rect x="108" y="108" width="925" height="392" rx="2"/></clipPath>
+    <filter id="softshadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+
+  <!-- Warm office shell and wood floor -->
+  <path d="M0 0H1600V1066H0V0Z" fill="url(#wall)"/>
+  <path d="M0 0H1600V694H0V0Z" fill="url(#wallgrain)"/>
+  <path d="M0 668H1600V1066H0V668Z" fill="url(#floor)"/>
+  <path d="M0 668H1600V1066H0V668Z" fill="url(#floorboards)"/>
+  <path d="M0 642H1600V692H0V642Z" fill="#9C7D5A"/>
+  <path d="M0 642H1600V653H0V642Z" fill="#E3C9A2"/>
+  <path d="M0 650H1600" stroke="#72563F" stroke-opacity=".35" stroke-width="3"/>
+  <path d="M0 38H1600" stroke="#D2B995" stroke-width="14"/>
+  <path d="M0 52H1600" stroke="#F8EFDF" stroke-opacity=".85" stroke-width="6"/>
+
+  <!-- City view through a broad wood-framed window -->
+  <rect x="88" y="88" width="965" height="430" rx="8" fill="#715A44"/>
+  <g clip-path="url(#windowview)">
+    <rect x="108" y="108" width="925" height="392" fill="url(#sky)"/>
+    <circle cx="847" cy="195" r="53" fill="#F5D99E" fill-opacity=".9"/>
+    <path d="M119 333C218 321 282 333 372 322C464 311 544 324 647 315C751 307 850 319 1032 304V501H108V366L119 333Z" fill="#AEC0A7"/>
+    <path d="M109 390L175 363V500H109V390Z" fill="#8A9D8D"/>
+    <path d="M168 333L278 307V500H168V333Z" fill="#9DAD9B"/>
+    <path d="M270 361L365 344V500H270V361Z" fill="#82978E"/>
+    <path d="M358 300L467 279V500H358V300Z" fill="#A8B7A6"/>
+    <path d="M458 344L547 324V500H458V344Z" fill="#879B91"/>
+    <path d="M538 275L665 250V500H538V275Z" fill="#99AA9C"/>
+    <path d="M655 329L748 312V500H655V329Z" fill="#81968D"/>
+    <path d="M739 292L853 270V500H739V292Z" fill="#A4B4A0"/>
+    <path d="M844 347L945 324V500H844V347Z" fill="#899D91"/>
+    <path d="M936 291L1036 268V500H936V291Z" fill="#A6B69F"/>
+    <g fill="#E8DFCA" fill-opacity=".78">
+      <path d="M190 354h18v24h-18zm34-8h18v24h-18zm34-8h18v24h-18zm-68 46h18v24h-18zm34 0h18v24h-18zm34 0h18v24h-18z"/>
+      <path d="M385 322h20v26h-20zm38-8h20v26h-20zm-38 42h20v26h-20zm38 0h20v26h-20zm-38 43h20v26h-20z"/>
+      <path d="M565 292h22v28h-22zm41-8h22v28h-22zm41-8h22v28h-22zm-82 53h22v28h-22zm41 0h22v28h-22zm41 0h22v28h-22z"/>
+      <path d="M763 324h18v25h-18zm34-7h18v25h-18zm-34 43h18v25h-18zm34 0h18v25h-18z"/>
+      <path d="M870 314h20v27h-20zm38-8h20v27h-20zm-38 48h20v27h-20zm38 0h20v27h-20z"/>
+      <path d="M956 305h19v26h-19zm37-8h19v26h-19zm-37 46h19v26h-19zm37 0h19v26h-19z"/>
+    </g>
+    <g fill="#66826E">
+      <path d="M123 499c4-47 23-60 27-89 18 25 19 55 13 89h-40Z"/><path d="M281 500c-3-43 10-66 4-98 22 25 29 56 22 98h-26Z"/>
+      <path d="M716 500c2-35 19-53 19-82 18 24 19 48 13 82h-32Z"/><path d="M977 500c-3-45 11-71 4-103 23 27 29 59 22 103h-26Z"/>
+    </g>
+    <path d="M108 460C274 443 386 468 521 451C660 434 757 463 905 444C953 438 994 442 1033 434V500H108V460Z" fill="#82927B"/>
+    <path d="M110 474C343 459 450 482 643 464C812 448 920 467 1034 450" stroke="#E5D4AE" stroke-opacity=".5" stroke-width="3"/>
+  </g>
+  <path d="M570 96V510M98 300H1044" stroke="#725A43" stroke-width="17"/>
+  <path d="M579 101V505M104 292H1038" stroke="#D8BE98" stroke-opacity=".6" stroke-width="3"/>
+  <path d="M88 518H1052" stroke="#694F38" stroke-width="15"/>
+  <path d="M96 525H1048" stroke="#E8D0AA" stroke-width="5"/>
+  <path d="M116 535L149 620H100L85 535M1020 535L995 620H1045L1056 535" fill="#8B6C4D"/>
+
+  <!-- Wall clock, notice board, framed prints -->
+  <circle cx="1200" cy="155" r="48" fill="#B79B77"/>
+  <circle cx="1200" cy="155" r="39" fill="#F8EFDF" stroke="#81694E" stroke-width="4"/>
+  <path d="M1200 128V155L1221 169" stroke="#53605C" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="1200" cy="155" r="4" fill="#53605C"/>
+  <rect x="74" y="220" width="220" height="212" rx="5" fill="#9C7655"/>
+  <rect x="86" y="232" width="196" height="188" rx="2" fill="#E8D5B4"/>
+  <path d="M101 251H257M101 266H239" stroke="#A58A68" stroke-width="4" stroke-linecap="round"/>
+  <rect x="103" y="288" width="67" height="88" rx="2" fill="#F5E8D2" transform="rotate(-4 103 288)"/>
+  <path d="M112 307H156M111 322H154M110 337H148" stroke="#BCA582" stroke-width="3"/>
+  <rect x="190" y="292" width="69" height="79" rx="2" fill="#D99B77"/>
+  <path d="M203 311H246M203 327H241M203 343H234" stroke="#F4E3C8" stroke-width="3"/>
+  <rect x="1255" y="93" width="165" height="145" rx="3" fill="#9A7652"/>
+  <rect x="1267" y="105" width="141" height="121" fill="#EADFCB"/>
+  <path d="M1279 206L1321 146L1351 183L1371 164L1400 206H1279Z" fill="#81977F"/>
+  <circle cx="1380" cy="129" r="15" fill="#E7BA78"/>
+
+  <!-- Sideboard and storage cabinet -->
+  <rect x="1333" y="415" width="224" height="227" rx="5" fill="#8A6A4B"/>
+  <rect x="1343" y="426" width="204" height="201" fill="#B08A60"/>
+  <path d="M1444 427V627" stroke="#76583F" stroke-width="7"/>
+  <path d="M1396 482V527M1491 482V527" stroke="#E5C99B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1340 541H1550" stroke="#76583F" stroke-width="7"/>
+  <path d="M1350 548H1540V616H1350Z" fill="#A78158"/>
+  <path d="M1381 570H1412M1471 570H1502" stroke="#E5C99B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1322 410H1562V428H1322Z" fill="#E0C39A"/>
+  <!-- Printer -->
+  <rect x="1365" y="346" width="143" height="71" rx="8" fill="#AEB2A8" stroke="#6F7773" stroke-width="5"/>
+  <path d="M1385 365H1489V397H1385Z" fill="#717D7C"/>
+  <path d="M1397 352V329H1478V352" fill="#F6EADB" stroke="#7E8580" stroke-width="4"/>
+  <path d="M1403 375H1470M1403 384H1448" stroke="#D9D2C2" stroke-width="3"/>
+  <circle cx="1491" cy="359" r="4" fill="#D1875A"/>
+
+  <!-- Coffee counter and cups -->
+  <rect x="1225" y="596" width="346" height="27" fill="#75573E"/>
+  <rect x="1241" y="623" width="315" height="56" fill="#B58A5D"/>
+  <path d="M1260 679V719M1535 679V719" stroke="#76583F" stroke-width="10"/>
+  <rect x="1281" y="546" width="104" height="50" rx="4" fill="#515C5C"/>
+  <rect x="1292" y="554" width="82" height="28" rx="2" fill="#D4B487"/>
+  <path d="M1304 584V596M1360 584V596" stroke="#E7D9C3" stroke-width="4"/>
+  <path d="M1308 539C1308 525 1333 525 1333 539" stroke="#F0E3CF" stroke-width="4"/>
+  <rect x="1412" y="559" width="38" height="37" rx="6" fill="#F3E4CB"/>
+  <path d="M1450 566C1469 561 1469 586 1450 581" stroke="#F3E4CB" stroke-width="5"/>
+  <path d="M1421 550C1417 541 1427 538 1423 529M1436 550C1432 541 1442 538 1438 529" stroke="#F5E9D4" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/>
+  <rect x="1481" y="570" width="44" height="26" rx="4" fill="#D9C5A3"/>
+  <path d="M1525 575C1540 572 1540 591 1525 588" stroke="#D9C5A3" stroke-width="4"/>
+
+  <!-- Greenery by the window and cabinet -->
+  <path d="M124 638H210L198 717H136L124 638Z" fill="#B87551"/>
+  <path d="M167 636C140 601 145 571 161 553C179 582 181 609 167 636Z" fill="#557C65"/>
+  <path d="M168 634C184 590 211 581 230 592C218 620 194 636 168 634Z" fill="#6C906E"/>
+  <path d="M166 635C139 625 117 598 125 579C151 588 166 608 166 635Z" fill="#78986F"/>
+  <path d="M167 637C169 592 190 561 209 560C210 592 193 622 167 637Z" fill="#52745E"/>
+  <path d="M1530 686H1583L1575 739H1538L1530 686Z" fill="#B87551"/>
+  <path d="M1557 687C1532 653 1540 628 1557 613C1573 641 1572 666 1557 687Z" fill="#61826B"/>
+  <path d="M1556 688C1571 649 1590 642 1602 652C1591 676 1576 688 1556 688Z" fill="#78976F"/>
+
+  <!-- Rugs and desk shadows -->
+  <ellipse cx="800" cy="980" rx="540" ry="92" fill="#634C39" fill-opacity=".22" filter="url(#softshadow)"/>
+  <path d="M387 862C567 819 1040 819 1235 867L1190 1018C1004 1048 584 1048 414 1018L387 862Z" fill="#7A7465"/>
+  <path d="M415 879C590 846 1025 846 1205 881L1173 997C1004 1021 602 1021 437 997L415 879Z" fill="#9B8B72"/>
+  <path d="M442 895C615 868 997 868 1178 896" stroke="#D9C29D" stroke-opacity=".7" stroke-width="4"/>
+
+  <!-- Four practical workstation desks -->
+  <ellipse cx="282" cy="794" rx="262" ry="36" fill="#665039" fill-opacity=".19"/>
+  <path d="M35 599H513V686H35V599Z" fill="url(#deskwood)"/>
+  <path d="M35 599H513V618H35V599Z" fill="#E7CCA4"/>
+  <path d="M67 687V905M477 687V905" stroke="#8B6949" stroke-width="25"/>
+  <path d="M48 696H499" stroke="#72563E" stroke-opacity=".35" stroke-width="5"/>
+  <!-- left monitor and paper -->
+  <path d="M114 596V558H169V596" stroke="#746958" stroke-width="9"/>
+  <rect x="72" y="465" width="235" height="134" rx="12" fill="#38484B"/>
+  <rect x="84" y="477" width="211" height="107" rx="5" fill="url(#monitor)"/>
+  <rect x="103" y="497" width="94" height="8" rx="4" fill="#D8C9AE" fill-opacity=".7"/>
+  <rect x="103" y="515" width="151" height="5" rx="3" fill="#F2E8D5" fill-opacity=".35"/>
+  <rect x="103" y="528" width="130" height="5" rx="3" fill="#F2E8D5" fill-opacity=".28"/>
+  <rect x="103" y="541" width="112" height="5" rx="3" fill="#F2E8D5" fill-opacity=".24"/>
+  <path d="M112 600H268" stroke="#303F43" stroke-width="8"/>
+  <path d="M338 629L421 616L433 675L348 685Z" fill="#F1E6D2"/>
+  <path d="M350 636L413 626M353 648L417 638M356 660L419 650" stroke="#B5A58A" stroke-width="4"/>
+  <rect x="420" y="632" width="34" height="50" rx="4" fill="#F3E7D4"/>
+  <path d="M454 641C479 637 479 666 454 662" stroke="#F3E7D4" stroke-width="5"/>
+  <path d="M432 626C426 614 438 611 432 602" stroke="#F3E7D4" stroke-opacity=".7" stroke-width="3"/>
+  <rect x="284" y="635" width="38" height="28" rx="4" fill="#565E58"/>
+  <path d="M291 641H315M291 647H315M291 653H315" stroke="#D9D0BE" stroke-width="2"/>
+
+  <!-- center desk -->
+  <ellipse cx="823" cy="862" rx="318" ry="38" fill="#594631" fill-opacity=".2"/>
+  <path d="M518 645H1115V741H518V645Z" fill="url(#deskwood)"/>
+  <path d="M518 645H1115V665H518V645Z" fill="#E7CCA4"/>
+  <path d="M568 741V954M1066 741V954" stroke="#8B6949" stroke-width="26"/>
+  <path d="M530 752H1102" stroke="#72563E" stroke-opacity=".35" stroke-width="5"/>
+  <path d="M613 643V596H672V643" stroke="#746958" stroke-width="10"/>
+  <rect x="550" y="476" width="254" height="164" rx="13" fill="#35474A"/>
+  <rect x="564" y="490" width="226" height="132" rx="6" fill="#516E70"/>
+  <rect x="583" y="509" width="132" height="8" rx="4" fill="#F1E6D0" fill-opacity=".76"/>
+  <rect x="583" y="529" width="184" height="5" rx="3" fill="#E5D9C2" fill-opacity=".36"/>
+  <rect x="583" y="544" width="172" height="5" rx="3" fill="#E5D9C2" fill-opacity=".3"/>
+  <rect x="583" y="559" width="143" height="5" rx="3" fill="#E5D9C2" fill-opacity=".26"/>
+  <path d="M626 642H735" stroke="#314044" stroke-width="9"/>
+  <path d="M737 686H854L840 700H747L737 686Z" fill="#52554E"/>
+  <path d="M716 708L757 680L814 685L851 716L823 724L773 703L739 725Z" fill="#D8C9AD"/>
+  <path d="M735 707L786 696M746 715L798 704M759 722L811 711" stroke="#9D907B" stroke-width="3"/>
+  <rect x="907" y="676" width="43" height="48" rx="5" fill="#F1E5D0"/>
+  <path d="M950 685C976 682 976 712 950 708" stroke="#F1E5D0" stroke-width="5"/>
+  <path d="M919 669C912 655 926 651 918 640M937 669C931 657 943 652 937 642" stroke="#F1E5D0" stroke-opacity=".75" stroke-width="3"/>
+  <rect x="982" y="684" width="89" height="42" rx="5" fill="#6F755F"/>
+  <path d="M992 694H1061M992 704H1055M992 714H1045" stroke="#D9C8A9" stroke-width="3"/>
+
+  <!-- right workstation -->
+  <ellipse cx="1325" cy="798" rx="228" ry="35" fill="#594631" fill-opacity=".18"/>
+  <path d="M1117 598H1576V685H1117V598Z" fill="url(#deskwood)"/>
+  <path d="M1117 598H1576V617H1117V598Z" fill="#E7CCA4"/>
+  <path d="M1150 686V904M1541 686V904" stroke="#8B6949" stroke-width="25"/>
+  <path d="M1177 594V557H1230V594" stroke="#746958" stroke-width="9"/>
+  <rect x="1138" y="465" width="230" height="132" rx="12" fill="#38484B"/>
+  <rect x="1151" y="478" width="204" height="105" rx="5" fill="#647D7C"/>
+  <rect x="1170" y="498" width="112" height="7" rx="4" fill="#E5DCC8" fill-opacity=".75"/>
+  <rect x="1170" y="516" width="160" height="5" rx="3" fill="#EEE5D4" fill-opacity=".35"/>
+  <rect x="1170" y="531" width="134" height="5" rx="3" fill="#EEE5D4" fill-opacity=".3"/>
+  <path d="M1184 600H1294" stroke="#354548" stroke-width="8"/>
+  <rect x="1396" y="632" width="91" height="45" rx="4" fill="#F1E5D0" transform="rotate(5 1396 632)"/>
+  <path d="M1407 646L1472 652M1405 658L1469 664" stroke="#AFA088" stroke-width="3"/>
+  <rect x="1500" y="635" width="42" height="49" rx="5" fill="#F3E6D1"/>
+  <path d="M1542 644C1567 640 1567 669 1542 665" stroke="#F3E6D1" stroke-width="5"/>
+
+  <!-- Chair and full-body XiaoMan, seated at her workstation -->
+  <g opacity="0">
+  <ellipse cx="773" cy="784" rx="124" ry="29" fill="#5D4937" fill-opacity=".22"/>
+  <path d="M706 635C691 570 707 531 750 520C796 508 842 534 846 587L840 710H706V635Z" fill="#53666A"/>
+  <path d="M712 631C709 583 727 548 759 544C794 540 819 569 819 614V718H712V631Z" fill="#6D7771"/>
+  <path d="M718 573C704 520 723 470 766 455C805 441 839 469 837 522C835 558 815 579 808 608L731 600L718 573Z" fill="#332B29"/>
+  <path d="M743 488C751 466 786 464 804 483L812 539C809 571 788 589 765 578C745 569 735 539 743 488Z" fill="#E1B496"/>
+  <path d="M737 492C745 456 782 442 812 465C830 479 834 504 821 523C811 494 795 482 771 482C758 482 748 488 737 508V492Z" fill="#302825"/>
+  <path d="M746 503C732 532 741 570 727 606L706 652L724 662L754 600L759 560Z" fill="#332B29"/>
+  <path d="M811 510C835 548 817 583 839 620L850 650L833 660L802 614L795 568Z" fill="#332B29"/>
+  <path d="M718 594C691 621 692 680 714 722H831C852 679 841 616 814 595L783 578L752 583L718 594Z" fill="url(#xiaomanShirt)"/>
+  <path d="M748 589L778 622L809 589" stroke="#E9D6C1" stroke-width="8"/>
+  <path d="M721 619C742 635 755 658 778 666L798 648" stroke="#E1B496" stroke-width="20" stroke-linecap="round"/>
+  <path d="M816 616C799 640 790 655 771 669" stroke="#E1B496" stroke-width="18" stroke-linecap="round"/>
+  <path d="M778 668L807 672" stroke="#E1B496" stroke-width="15" stroke-linecap="round"/>
+  <path d="M716 711L699 762H752L771 713M788 713L808 759H855L830 708" fill="#394750"/>
+  <path d="M689 762H757M800 760H861" stroke="#394750" stroke-width="18" stroke-linecap="round"/>
+  <path d="M695 766L670 781M850 765L877 779" stroke="#777267" stroke-width="10" stroke-linecap="round"/>
+  <!-- XiaoMan's keyboard-level hands and pens -->
+  <path d="M744 704C759 690 773 684 792 688" stroke="#E1B496" stroke-width="13" stroke-linecap="round"/>
+  <path d="M801 694C813 682 828 682 839 688" stroke="#E1B496" stroke-width="13" stroke-linecap="round"/>
+  <path d="M863 712L890 681" stroke="#D58D5C" stroke-width="5" stroke-linecap="round"/>
+
+  </g>
+  <!-- LinXiao at the right desk, holding a mug -->
+  <g opacity="0">
+  <ellipse cx="1053" cy="711" rx="92" ry="18" fill="#5D4937" fill-opacity=".19"/>
+  <path d="M1012 613C998 577 1008 533 1041 521C1076 509 1106 540 1102 579L1090 639H1015L1012 613Z" fill="#596C70"/>
+  <path d="M1027 535C1028 503 1057 485 1080 504C1100 520 1097 552 1081 570L1040 568Z" fill="#513A33"/>
+  <path d="M1035 526C1043 506 1067 507 1081 526L1081 564C1073 584 1051 584 1040 567Z" fill="#E3B99D"/>
+  <path d="M1032 531C1025 508 1042 484 1067 484C1091 484 1103 501 1097 526C1079 509 1056 506 1032 531Z" fill="#543A31"/>
+  <path d="M1018 573C999 588 1005 642 1020 677H1090C1108 639 1099 592 1080 574L1054 562Z" fill="url(#linxiaoShirt)"/>
+  <path d="M1020 602L989 640" stroke="#E3B99D" stroke-width="15" stroke-linecap="round"/>
+  <path d="M1086 602L1112 624" stroke="#E3B99D" stroke-width="15" stroke-linecap="round"/>
+  <rect x="1103" y="609" width="27" height="30" rx="5" fill="#F3E6D1"/>
+  <path d="M1130 615C1147 611 1147 633 1130 630" stroke="#F3E6D1" stroke-width="4"/>
+  <path d="M1030 670L1017 736H1050L1061 680M1071 679L1091 736H1123L1091 671" fill="#4B5553"/>
+
+  </g>
+  <!-- ChenYu, standing with a document folder -->
+  <g opacity="0">
+  <ellipse cx="355" cy="802" rx="92" ry="24" fill="#5D4937" fill-opacity=".19"/>
+  <path d="M315 499C299 470 311 434 342 427C375 419 396 448 389 482L379 519H323L315 499Z" fill="#45403C"/>
+  <path d="M324 455C330 433 360 431 376 451L377 493C370 520 341 523 328 498Z" fill="#CFA58A"/>
+  <path d="M316 462C315 432 340 411 368 423C389 433 396 452 385 474C365 454 342 450 316 477V462Z" fill="#403B38"/>
+  <path d="M321 512C298 520 286 551 290 596L300 728H409L420 590C422 549 405 521 383 511L355 500Z" fill="url(#chenyuCoat)"/>
+  <path d="M342 509L356 542L372 509L365 602L352 618L341 600Z" fill="#D6C4A3"/>
+  <path d="M352 535L359 557L352 574L345 557Z" fill="#A56E57"/>
+  <path d="M300 542L269 615L282 674" stroke="#CFA58A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M404 543L431 607L418 665" stroke="#CFA58A" stroke-width="18" stroke-linecap="round"/>
+  <rect x="391" y="594" width="61" height="91" rx="5" fill="#B78B58" stroke="#E1C59A" stroke-width="4" transform="rotate(-8 391 594)"/>
+  <path d="M400 612L438 606M402 626L439 620M404 641L430 637" stroke="#F2E2C7" stroke-width="4"/>
+  <path d="M312 724L302 815H345L365 726M367 726L386 815H429L406 724" fill="#42494A"/>
+  <path d="M298 815H349M382 815H434" stroke="#383D3F" stroke-width="17" stroke-linecap="round"/>
+
+  </g>
+  <!-- XuRan leaning in to peek at a monitor, crooked badge and glasses -->
+  <g opacity="0">
+  <ellipse cx="1200" cy="809" rx="104" ry="27" fill="#5D4937" fill-opacity=".2"/>
+  <path d="M1153 493C1141 452 1159 421 1195 414C1232 406 1260 438 1252 475L1234 514L1170 516Z" fill="#282725"/>
+  <path d="M1170 447C1184 422 1213 429 1229 450L1224 494C1212 517 1186 514 1173 494Z" fill="#C7987C"/>
+  <path d="M1152 452C1155 418 1180 399 1211 408C1239 416 1259 435 1252 463C1232 439 1201 434 1171 464L1152 478Z" fill="#292725"/>
+  <path d="M1150 524C1125 538 1119 578 1129 618L1148 734H1268L1279 607C1282 564 1265 535 1237 520L1201 510Z" fill="url(#xuranShirt)"/>
+  <path d="M1167 543L1113 601L1069 607" stroke="#C7987C" stroke-width="20" stroke-linecap="round"/>
+  <path d="M1237 542L1272 585L1305 576" stroke="#C7987C" stroke-width="20" stroke-linecap="round"/>
+  <path d="M1180 730L1170 813H1211L1223 733M1234 733L1250 813H1292L1267 729" fill="#424746"/>
+  <path d="M1168 814H1217M1248 814H1299" stroke="#343A39" stroke-width="18" stroke-linecap="round"/>
+  <!-- crooked ID card -->
+  <path d="M1264 548L1301 554L1293 594L1257 587Z" fill="#E2D4BB" stroke="#7B6C57" stroke-width="3"/>
+  <path d="M1266 560L1290 564M1264 570L1287 574" stroke="#7E8C84" stroke-width="3"/>
+  <!-- deliberately small eyes and crooked glasses -->
+  <path d="M1176 470L1195 472M1207 474L1223 476" stroke="#443A34" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1168 459L1199 462L1197 480L1169 478ZM1203 463L1232 466L1229 483L1201 480Z" stroke="#4A4A44" stroke-width="3"/>
+  <path d="M1198 469L1204 469" stroke="#4A4A44" stroke-width="3"/>
+  <path d="M1191 493L1208 491" stroke="#8B5F4C" stroke-width="3" stroke-linecap="round"/>
+
+  </g>
+  <!-- File cart, small stationery and lived-in desk details -->
+  <rect x="83" y="721" width="183" height="111" rx="8" fill="#80684D"/>
+  <path d="M93 738H253V821H93Z" fill="#C1A27A"/>
+  <rect x="105" y="748" width="29" height="64" fill="#829393"/>
+  <rect x="141" y="742" width="32" height="70" fill="#C58A6E"/>
+  <rect x="180" y="750" width="30" height="62" fill="#697F75"/>
+  <rect x="216" y="744" width="27" height="68" fill="#E4D4B7"/>
+  <path d="M105 757H134M141 753H172M180 761H210M216 755H243" stroke="#F3E7D1" stroke-opacity=".75" stroke-width="4"/>
+  <rect x="1241" y="725" width="45" height="64" rx="3" fill="#7A6852"/>
+  <rect x="1292" y="737" width="52" height="52" rx="3" fill="#C6A176"/>
+  <path d="M1261 725V712M1317 737V723" stroke="#6A5944" stroke-width="4"/>
+
+  <!-- Ceiling lamps and warm pools of afternoon light -->
+  <path d="M480 38V96M1087 38V96" stroke="#9B835F" stroke-width="5"/>
+  <path d="M451 98H510L494 118H467L451 98Z" fill="#F3E1BC" stroke="#9A805C" stroke-width="3"/>
+  <path d="M1058 98H1117L1101 118H1074L1058 98Z" fill="#F3E1BC" stroke="#9A805C" stroke-width="3"/>
+  <path d="M455 117L395 494H570L506 117M1062 117L1004 448H1182L1113 117" fill="#F3CE8C" fill-opacity=".08"/>
+  <path d="M464 108H497M1071 108H1104" stroke="#FFF4D5" stroke-width="5" stroke-linecap="round"/>
+</svg>

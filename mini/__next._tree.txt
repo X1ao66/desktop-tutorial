@@ -1,0 +1,3 @@
+:HL["/desktop-tutorial/_next/static/css/e6de212746ccddbe.css","style"]
+:HL["/desktop-tutorial/_next/static/css/115bde45d0ae292d.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"mini","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"lb2Jqgu45ojZOFFCN6xJd"}
